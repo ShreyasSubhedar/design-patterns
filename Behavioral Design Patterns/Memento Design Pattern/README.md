@@ -10,7 +10,7 @@
 ## Solution
 - To implement this undo mechanism the *GOF (Gang of Four)* invent Memento Design Pattern
 - The legit UML diagram is as follow: 
- !()[]
+ ![Legacy Memento pattern](https://github.com/ShreyasSubhedar/design-patterns/blob/master/Behavioral%20Design%20Patterns/Memento%20Design%20Pattern/Screenshot%20from%202020-07-11%2023-30-46.png)
 
 - Here Caretaker class is used for storing state of Originator
 - Memento is used for maintaining state of originator
@@ -19,9 +19,9 @@
 ### Isn't this is cliche due to all these namings of classes?
 
 - A simple class diagram which implement editor undo mechanism is as follows:
-![]()
+![Class Diagram of Memento Design Pattern in Editor Undo Fuctionality](https://github.com/ShreyasSubhedar/design-patterns/blob/master/Behavioral%20Design%20Patterns/Memento%20Design%20Pattern/Blank%20Diagram.png)
 - Here `History`-> saving the states `EditorState`-> is maintaining the editor class states and `Editor` is initializing the state variables (i.e String content;)
 
-### Why cant we combine `EditorState` and `Editor` class functionality into a single class?
-#### Ans: It violates SOLID Design Principle 'S'(i.e Single responsibility principle).
+#### Why cant we combine `EditorState` and `Editor` class functionality into a single class?
+##### Ans: It violates SOLID Design Principle 'S'(i.e Single responsibility principle).
 
