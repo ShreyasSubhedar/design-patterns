@@ -8,7 +8,7 @@
 - To implement this changing behavior we have Strategy Design Pattern
 - The legit UML diagram is as follow: 
 
-![Legit Class Diagram of State Pattern](https://github.com/ShreyasSubhedar/design-patterns/blob/master/Behavioral%20Design%20Patterns/State%20Design%20Pattern/Screenshot%20from%202020-07-12%2020-15-18.png)
+![Legit Class Diagram of Strategy Pattern](https://github.com/ShreyasSubhedar/design-patterns/blob/master/Behavioral%20Design%20Patterns/Strategy%20Design%20Pattern/strategy_pattern_uml_diagram.jpg)
 
 - Here Strategy is an interface which defines contract
 - Add , Subtract, Multiply are the classes which follows the shared contract. 
@@ -19,7 +19,7 @@
 
 - A simple class diagram which implement this functionality is as follows:
 
-![Class Diagram of Strategy Pattern](https://github.com/ShreyasSubhedar/design-patterns/blob/master/Behavioral%20Design%20Patterns/State%20Design%20Pattern/Class%20Diagram.png)
+![Class Diagram of Strategy Pattern](https://github.com/ShreyasSubhedar/design-patterns/blob/master/Behavioral%20Design%20Patterns/Strategy%20Design%20Pattern/Class%20Diagram%20Strategy%20Pattern.png)
 - Here using the Strategy Pattern we can easily extend our application by injecting different  
 but we restrict the modification  which follows the SOLID design principles 'O' (i.e Open for Extension Close for Modification).
 
