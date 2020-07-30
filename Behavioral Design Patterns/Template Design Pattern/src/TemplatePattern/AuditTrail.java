@@ -1,4 +1,4 @@
-package com.Template;
+package TemplatePattern;
 
 public class AuditTrail {
 
