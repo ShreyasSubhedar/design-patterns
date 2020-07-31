@@ -14,7 +14,7 @@
 
 - To implement this undo mechanism the _GOF (Gang of Four)_ invent Template Method Design Pattern
 - The legit UML diagram is as follow:
-  ![Template Design Pattern]()
+- ![Template Design Pattern](https://github.com/ShreyasSubhedar/design-patterns/blob/master/Behavioral%20Design%20Patterns/Template%20Design%20Pattern/Template_Method.png)
 
 - The implementation of template_method() is: call`step_one()`, call `step_two()`, and call `step_three()`. `step_two()` is a "hook" method – a placeholder.
 - It is declared in the base class, and then defined in derived classes.
@@ -23,9 +23,9 @@
 ### Simplified version of Template Design Pattern
 
 - A simple class diagram which implement editor undo mechanism is as follows:
-  ![Class Diagram of Memento Design Pattern in Editor Undo Fuctionality]()
-- Here `History`-> saving the states `EditorState`-> is maintaining the editor class states and `Editor` is initializing the state variables (i.e String content;)
-
+- ![Class Diagram](https://github.com/ShreyasSubhedar/design-patterns/blob/master/Behavioral%20Design%20Patterns/Template%20Design%20Pattern/Template%20Design%20Pattern%20Class%20Diagram.png)
+  
+- `doExecute` is a parent method which is overriden by many tasks
 ### FAQs
 
 #### Can we make the overriden methods public?
